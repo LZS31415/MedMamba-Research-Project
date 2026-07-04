@@ -1,12 +1,11 @@
 # MedMamba Research Project
 
-Reproducibility study, critical assessment, and alternative model comparison of **MedMamba: Vision Mamba for Medical Image Classification** (arXiv:2403.03849), evaluated on the PathMNIST dataset. Built for the MSI5102 group project.
+Reproducibility study, critical assessment, and alternative model comparison of **MedMamba: Vision Mamba for Medical Image Classification** (arXiv:2403.03849), evaluated on the PathMNIST dataset. Built for the MSI5102 school project.
 
-**Team:** Arora Anuj, Chandiramani Lavnit Sanjeev, Lau Zhan Siang, Lim Feng Yueh, Liau Yun Qing, Rajagopalan Dayanithy
 
 ## What this project does
 
-The work is split into three parts, each covering a distinct task we were assigned:
+The work is split into three parts, each covering a distinct task that was assigned:
 
 1. **Reproduce** the paper's reported results on PathMNIST using the authors' own published weights (`notebooks/part1_reproducibility.ipynb`).
 2. **Challenge** those results by training the paper's own baseline models (ConvNeXt-T, ResNet50) under fairer conditions, to test whether MedMamba's advantage is architectural or a byproduct of how the baselines were trained (`notebooks/part2_alternative_models_challenge.ipynb`).
